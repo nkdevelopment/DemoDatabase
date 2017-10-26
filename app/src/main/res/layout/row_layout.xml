@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+    
+    <TextView
+        android:id="@+id/tx_name"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:text="Nektarios"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tx_password"
+        android:layout_toRightOf="@+id/tx_name"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:text="pass"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/tx_contact"
+        android:layout_toRightOf="@+id/tx_password"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:text="a@b.c"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/tx_country"
+        android:layout_toRightOf="@+id/tx_contact"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:text="Greece"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+</RelativeLayout>
